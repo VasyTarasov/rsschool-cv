@@ -46,7 +46,7 @@ console.log(matrix);
 ## Experience
 ## Education
 * **Courses:**\
-https://stc.innopolis.university/
+Python - https://stc.innopolis.university/
 ## Languages
 * Russian - Native
 * English - Intermediate
