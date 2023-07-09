@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Artur Abaydullin</title>
+</head>
+<body>
+    <h1>Artur Abaydullin</h1>
+    <h2>Contact information</h2>
+    <p><strong>Location:</strong> Kazan, Russia</p>
+    <p><strong>Email:</strong> a149706@gmail.com</p>
+    <p><strong>Telegram:</strong> @Turski_evladi</p>
+    <p><strong>Discord:</strong> Jopa#5858</p>
+    <p><strong>GitHub:</strong> VasyTarasov</p>
+    
+    <h2>About Me</h2>
+    <p>I'm 19 years old, I'm studying at Kazan Aviation Institute on the second year at the faculty of Computer Systems and Technologies.</p>
+    
+    <h2>Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>JavaScript (Basic)</li>
+        <li>C++</li>
+        <li>Adobe Photoshop</li>
+    </ul>
+    
+    <h2>Code example</h2>
+    <pre><code>"use strict";
+
+let n = prompt("Enter the value of n: ");
+let m = prompt("Enter the value of m: ");
+let matrix = new Array(m);
+let min_num = Infinity;
+let cord_x;
+
+for (let i = 0; i < m; i++) {
+    matrix[i] = new Array(n);
+}
+
+for (let i = 0; i < matrix.length; i++) {
+    for (let j = 0; j < matrix[i].length; j++) {
+    matrix[i][j] = prompt("Enter a value: ");
+    if ((matrix[i][j] < min_num) && (matrix[i][j] != 0)) {
+        min_num = matrix[i][j];
+        cord_x = j;
+        }
+    }
+}
+for (let i = 0; i < matrix.length; i++) {
+    matrix[i][cord_x] = matrix[i][cord_x] / min_num;
+}
+
+console.log(matrix);</code></pre>
+    
+    <h2>Experience</h2>
+    
+    <h2>Education</h2>
+    <ul>
+        <li><strong>Courses:</strong> Python - <a href="https://stc.innopolis.university/">https://stc.innopolis.university/</a></li>
+    </ul>
+    
+    <h2>Languages</h2>
+    <ul>
+        <li>Russian - Native</li>
+        <li>English - Intermediate</li>
+    </ul>
+</body>
+</html>
