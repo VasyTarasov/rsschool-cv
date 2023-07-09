@@ -14,8 +14,6 @@ I'm 19 years old, I'm studying at Kazan Aviation Institute on the second year at
 * Adobe Photoshop
 ## Code example
 ```js
-// Given a matrix of size n x m. Find the minimum element in each column of the matrix (excluding zeros) and divide all elements in that column by it.
-
 "use strict";
 
 let n = prompt("Enter the value of n: ");
