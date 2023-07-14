@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Arimo';
+    src: url("assets/fonts/ArimoRegular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Arimo';
+    src: url("assets/fonts/ArimoMediumItalic.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Arimo';
+    src: url("assets/fonts/ArimoBold.ttf");
+    font-weight: 700;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
