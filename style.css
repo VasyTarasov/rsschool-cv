@@ -55,3 +55,17 @@ html {
     color: #4d2323;
 }
 
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+  .section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
