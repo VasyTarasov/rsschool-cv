@@ -17,4 +17,10 @@
     box-sizing: border-box;
   }
 
+.container-main {
+    display: flex;
+}
   
+.column {
+    flex: 1;
+}

@@ -16,15 +16,13 @@ I'm 19 years old, I'm studying at Kazan Aviation Institute on the second year at
 ```js
 function greet() {
   let currentDate = new Date();
-  console.log("Привет, сегодня " + currentDate.toLocaleDateString());
+  console.log("Hello, today is " + currentDate.toLocaleDateString());
 }
 
 greet();
 ```
-## Experience
 ## Education
-* **Courses:**\
-Python - https://stc.innopolis.university/\
+* Python - https://stc.innopolis.university/\
 ## Languages
 * Russian - Native
 * English - Intermediate
