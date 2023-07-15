@@ -14,32 +14,12 @@ I'm 19 years old, I'm studying at Kazan Aviation Institute on the second year at
 * Adobe Photoshop
 ## Code example
 ```js
-"use strict";
-
-let n = prompt("Enter the value of n: ");
-let m = prompt("Enter the value of m: ");
-let matrix = new Array(m);
-let min_num = Infinity;
-let cord_x;
-
-for (let i = 0; i < m; i++) {
-    matrix[i] = new Array(n);
+function greet() {
+  let currentDate = new Date();
+  console.log("Привет, сегодня " + currentDate.toLocaleDateString());
 }
 
-for (let i = 0; i < matrix.length; i++) {
-    for (let j = 0; j < matrix[i].length; j++) {
-    matrix[i][j] = prompt("Enter a value: ");
-    if ((matrix[i][j] < min_num) && (matrix[i][j] != 0)) {
-        min_num = matrix[i][j];
-        cord_x = j;
-        }
-    }
-}
-for (let i = 0; i < matrix.length; i++) {
-    matrix[i][cord_x] = matrix[i][cord_x] / min_num;
-}
-
-console.log(matrix);
+greet();
 ```
 ## Experience
 ## Education
